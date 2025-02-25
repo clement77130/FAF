@@ -124,7 +124,7 @@ export async function execute(member: GuildMember) {
     const welcomeEmbed = new EmbedBuilder()
       .setColor('#0099ff')
       .setTitle(`Bienvenue sur ${member.guild.name}`)
-      .setURL('https://tresorsky.fr')
+      .setURL('https://force-armee-francaise.fr')
       .setThumbnail(member.user.displayAvatarURL())
       .setDescription(
         `${member.user} vient de nous rejoindre.\n` +
